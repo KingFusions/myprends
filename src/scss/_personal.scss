@@ -1,0 +1,189 @@
+@media screen and (max-width: 755px) {
+    canvas {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+}
+@media screen and (min-width: 756px) {
+    canvas {
+        position: absolute;
+        background-color: black;
+        top: 0;
+        z-index: 0;
+        border: 1px solid black;
+        pointer-events: all;
+    }
+}
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    .personal {
+        pointer-events: none;
+        position: relative;
+        .personal-container {
+            position: relative;
+            z-index: 1;
+            width: 100vw;
+            // height: 65vh;
+
+            h1 {
+                position: relative;
+                z-index: 1;
+                font-size: 5vw;
+                color: white;
+                text-align: center;
+                margin-bottom: 1vw;
+            }
+            .img-hobbies {
+                margin: 0;
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+                img {
+                    position: relative;
+                    z-index: 1;
+                    justify-self: center;
+                    width: 45vw;
+                    height: 45vw;
+                }
+                p {
+                    position: relative;
+                    text-align: left;
+                    font-size: 3vw;
+                    padding: 25px 2%;
+                    color: white;
+                }
+            }
+            @media screen and (min-width: 755px) {
+                .img-hobbies {
+                    margin: 0;
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+                    img {
+                        pointer-events: all;
+                        z-index: 1;
+                        justify-self: center;
+                        width: 35vw;
+                        height: 35vw;
+                    }
+                    p {
+                        text-align: left;
+                        font-size: 2.5vw;
+                        padding: 0 2%;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .contacts {
+            position: relative;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                pointer-events: all;
+                margin: 0;
+                border: 0;
+                padding: 3vw;
+
+                a {
+                    margin: 0;
+                    width: inherit;
+                    height: inherit;
+                }
+                .icon {
+                    position: relative;
+                    z-index: 1;
+                    width: 7.5vw;
+                    height: 7.5vw;
+                }
+                .hover {
+                    visibility: hidden;
+                    position: absolute;
+                    margin: 0;
+                    opacity: 0;
+                    border-radius: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    bottom: 11.5vw;
+                }
+                .facebook {
+                    width: 19vw;
+                    height: 19vw;
+                    padding: 0;
+                    background-color: #242526;
+                    z-index: 20;
+
+                    img {
+                        position: relative;
+                        border-radius: 50px;
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .instagram {
+                    width: 28vw;
+                    height: 10vw;
+                    padding: 0;
+                    // background-color: #5b5c5b;
+
+                    img {
+                        position: relative;
+                        margin: 0;
+                        margin-left: 11vw;
+                        margin-top: 0.3vw;
+                        padding: 0;
+                        width: 155%;
+                        height: 100%;
+                    }
+                }
+                .twitter {
+                    width: 18vw;
+                    height: 19vw;
+                    padding: 0;
+                    background-color: #5b5c5b;
+
+                    img {
+                        position: relative;
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .gmail {
+                    width: 15vw;
+                    height: 3vw;
+                    padding: 0;
+                    font-size: 1.4vw;
+                    background-color: #18191b;
+                    color: grey;
+                }
+                .hovering {
+                    visibility: visible;
+                    opacity: 1;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+.cursor {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    backdrop-filter: brightness(1.5);
+    transform: translate(6vw, 5.2vw);
+}

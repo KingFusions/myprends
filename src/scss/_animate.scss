@@ -1,0 +1,288 @@
+@media screen and (max-width: 350px) {
+    //Text
+    .toUpText {
+        transform: translateY(20px);
+        opacity: 0;
+        animation: toups 0.5s ease-out 0.3s 1 forwards;
+    }
+    .toDownText {
+        transform: translateY(-20px);
+        opacity: 0;
+        animation: todowns 0.5s ease-out 0.8s 1 forwards;
+    }
+    .toRightText {
+        transform: translateX(-20px);
+        opacity: 0;
+        animation: torights 0.5s ease-out 1.3s 1 forwards;
+    }
+    .toLeftText {
+        transform: translateX(20px);
+        opacity: 0;
+        transition: all 0.5s ease-out;
+    }
+    //Animations-Text
+    @keyframes toups {
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes todowns {
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes torights {
+        to {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    .tolefts {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    //Images
+    .toLeftimg1 {
+        transform: translate(150px, 150px);
+        opacity: 0;
+        animation: toleftimg 0.8s ease-out 0.3s 1 forwards;
+    }
+    .toRightimg1 {
+        transform: translate(-150px, 150px);
+        opacity: 0;
+        animation: torightimg 0.8s ease-out 0.8s 1 forwards;
+    }
+    .toLeftimg2 {
+        transform: translate(150px, 150px);
+        opacity: 0;
+        animation: toleftimg 0.8s ease-out 1.3s 1 forwards;
+    }
+    .toRightimg2 {
+        transform: translate(-150px, 150px);
+        opacity: 0;
+        transition: all 0.8s ease-out;
+    }
+    //Animation-Images
+    @keyframes toleftimg {
+        to {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes torightimg {
+        to {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    .torightimg {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    //Button
+    .torightimg {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .buttonMemo {
+        margin: 9vh 35vw;
+        opacity: 0;
+        transition: 0.7s all ease-out;
+    }
+    .toupbuttons {
+        margin: 7.5vh 35vw;
+        opacity: 1;
+    }
+}
+@media screen and (min-width: 351px) and (max-width: 660px) {
+    .toUpText {
+        transform: translateY(20px);
+        opacity: 0;
+        animation: toups 0.5s ease-out 0.3s 1 forwards;
+    }
+    .toDownText {
+        transform: translateY(-20px);
+        opacity: 0;
+        animation: todowns 0.5s ease-out 0.8s 1 forwards;
+    }
+    .toRightText {
+        transform: translateX(-20px);
+        opacity: 0;
+        transition: all 0.5s ease-out;
+    }
+    .toLeftText {
+        transform: translateX(20px);
+        opacity: 0;
+        transition: all 0.5s ease-out;
+    }
+    //Animations-Text
+    @keyframes toups {
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes todowns {
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    .torights {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .tolefts {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    //Images
+    .toLeftimg1 {
+        transform: translate(150px, 150px);
+        opacity: 0;
+        animation: toleftimg 0.8s ease-out 0.3s 1 forwards;
+    }
+    .toLeftimg2 {
+        transform: translate(150px, 150px);
+        opacity: 0;
+        transition: all 0.8s ease-out;
+    }
+    .toRightimg1 {
+        transform: translate(-150px, 150px);
+        opacity: 0;
+        animation: torightimg 0.8s ease-out 0.8s 1 forwards;
+    }
+    .toRightimg2 {
+        transform: translate(-150px, 150px);
+        opacity: 0;
+        transition: all 0.8s ease-out;
+    }
+    //Animation-Images
+    @keyframes toleftimg {
+        to {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes torightimg {
+        to {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    .toleftimg {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .torightimg {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    //Buttons
+    .buttonMemo {
+        margin: 9vh 35vw;
+        opacity: 0;
+        transition: 0.7s all ease-out;
+    }
+    .toupbuttons {
+        margin: 7.5vh 35vw;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 661px) {
+    .toUpText {
+        transform: translateY(20px);
+        opacity: 0;
+        animation: toups 0.5s ease-out 0.3s 1 forwards;
+    }
+    .toDownText {
+        transform: translateY(-20px);
+        opacity: 0;
+        transition: all 0.5s ease-out;
+    }
+    .toRightText {
+        transform: translateX(-20px);
+        opacity: 0;
+        transition: all 0.5s ease-out;
+    }
+    .toLeftText {
+        transform: translateX(20px);
+        opacity: 0;
+        transition: all 0.5s ease-out;
+    }
+    //Animations-Text
+    @keyframes toups {
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    .todowns {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    .torights {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .tolefts {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    //Images
+    .toLeftimg1 {
+        transform: translate(150px, 150px);
+        opacity: 0;
+        animation: toleftimg 0.8s ease-out 0.3s 1 forwards;
+    }
+    .toLeftimg2 {
+        transform: translate(150px, 150px);
+        opacity: 0;
+        transition: all 0.8s ease-out;
+    }
+    .toRightimg1 {
+        transform: translate(-150px, 150px);
+        opacity: 0;
+        transition: all 0.8s ease-out;
+    }
+    .toRightimg2 {
+        transform: translate(-150px, 150px);
+        opacity: 0;
+        transition: all 0.8s ease-out;
+    }
+    //Animation-Images
+    @keyframes toleftimg {
+        to {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes torightimg {
+        to {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    .toleftimg {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    .torightimg {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    //Buttons
+    .buttonMemo {
+        margin: 9vh 35vw;
+        opacity: 0;
+        transition: 0.7s all ease-out;
+    }
+    .toupbuttons {
+        margin: 7.5vh 35vw;
+        opacity: 1;
+    }
+}
