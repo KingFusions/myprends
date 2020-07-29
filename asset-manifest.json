@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/myprends/static/css/main.905d2e3a.chunk.css",
-    "main.js": "/myprends/static/js/main.020cc940.chunk.js",
-    "main.js.map": "/myprends/static/js/main.020cc940.chunk.js.map",
+    "main.js": "/myprends/static/js/main.fd118043.chunk.js",
+    "main.js.map": "/myprends/static/js/main.fd118043.chunk.js.map",
     "runtime-main.js": "/myprends/static/js/runtime-main.5b0ab78b.js",
     "runtime-main.js.map": "/myprends/static/js/runtime-main.5b0ab78b.js.map",
     "static/js/2.7cd6141d.chunk.js": "/myprends/static/js/2.7cd6141d.chunk.js",
     "static/js/2.7cd6141d.chunk.js.map": "/myprends/static/js/2.7cd6141d.chunk.js.map",
     "index.html": "/myprends/index.html",
-    "precache-manifest.db7efa46d36eeac73e0a66fddf5242fd.js": "/myprends/precache-manifest.db7efa46d36eeac73e0a66fddf5242fd.js",
+    "precache-manifest.6415fcf859fd1cda2d51a9f3460f1a40.js": "/myprends/precache-manifest.6415fcf859fd1cda2d51a9f3460f1a40.js",
     "service-worker.js": "/myprends/service-worker.js",
     "static/css/main.905d2e3a.chunk.css.map": "/myprends/static/css/main.905d2e3a.chunk.css.map",
     "static/js/2.7cd6141d.chunk.js.LICENSE.txt": "/myprends/static/js/2.7cd6141d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5b0ab78b.js",
     "static/js/2.7cd6141d.chunk.js",
     "static/css/main.905d2e3a.chunk.css",
-    "static/js/main.020cc940.chunk.js"
+    "static/js/main.fd118043.chunk.js"
   ]
 }
