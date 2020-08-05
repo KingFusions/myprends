@@ -9,7 +9,7 @@ function Countdown() {
     let interval = useRef();
     let start = true;
     let timer = () => {
-        let releaseDate = new Date("August 5, 2020 20:00:00").getTime();
+        let releaseDate = new Date("August 10, 2020 20:00:00").getTime();
         interval = setInterval(() => {
             let now = new Date().getTime();
             let distance = releaseDate - now;
